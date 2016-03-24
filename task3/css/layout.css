@@ -1,0 +1,57 @@
+body{
+	margin: 20px;
+}
+.container,.team-info,.personal-info,.introduce {
+	
+	padding: 20px;
+	border: 1px solid #999;
+}
+.container{
+	width: auto;
+	overflow: hidden;  /*随子元素高度自动展开*/
+	background-color: #eee;
+
+}
+/*左*/
+.team-info{
+
+	width: 200px;
+	float: left;
+	background: #fff;
+}
+.team-info p{
+	margin-top: 0px;
+	float: right;
+	
+}
+.team-info img{
+	width: 80px;
+	height: 80px;
+
+}
+
+/*右*/
+.personal-info{
+	width: 120px;
+	float: right;
+	background: #fff;
+
+}
+.personal-info img{
+	margin: 20px auto;
+
+	display: block;
+	width: 80px;
+	height: 80px;
+	
+}
+/*中*/
+.introduce{
+	margin: 0px 180px 40px 260px;
+	background: #fff;
+}
+.introduce p{
+		font-family: "Times New Roman";
+
+}
+
