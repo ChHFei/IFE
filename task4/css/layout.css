@@ -1,0 +1,32 @@
+html,body{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+.mdbox{
+	width: 400px;
+	height: 200px;
+	background-color: #ccc;
+
+	margin: 0 auto;
+	position: relative ;
+	top: 50%;
+	margin-top: -100px;  /*   二分之一height */
+}
+.lt-round,.rt-round{
+	width: 50px;
+	height: 50px;
+	background-color: #fc0;
+	position: absolute;
+}
+.lt-round{
+	top: 0px;
+	left: 0px;
+	border-radius: 0px 0px 50px 0px;
+
+}
+.rt-round{
+	bottom: 0px;
+	right: 0px;
+	border-radius: 50px 0px 0px 0px;
+}
