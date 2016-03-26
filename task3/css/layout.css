@@ -8,8 +8,9 @@ body{
 }
 .container{
 	width: auto;
-	overflow: hidden;  /*随子元素高度自动展开*/
+	overflow: hidden;  
 	background-color: #eee;
+	min-width: 540px;
 
 }
 /*左*/
