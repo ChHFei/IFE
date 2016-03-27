@@ -1,0 +1,117 @@
+html,body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #BFBFBF
+
+}
+
+/*导航栏*/
+
+nav{
+	background-color: #383838;
+	height:70px;
+	min-width: 590px;
+
+}
+.logo {
+	position: absolute;
+	background-image: url(../images/chf.jpg);
+
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	margin-top: 5px;
+	margin-left: 20px;
+	float: left;
+}
+.nav-link{
+	float: right;
+	width: 450px;
+	margin-right: 20px;
+}
+.nav-ul{
+	padding: 0px;
+	margin: 0px;
+}
+.nav-ul li{
+	float: left;
+	display: inline-block;
+	margin-left: 10px;
+	height: 70px;
+	line-height: 70px;
+}
+.nav-ul li a{
+	color: #FFFFFF
+}
+.nav-ul li a:hover{
+	color: #0938FA
+}
+
+/*container*/
+.container{
+	overflow: auto;
+	min-width: 700px;
+}
+.right{
+	float: right;
+	width: 400px;
+	margin: 10px;
+}
+.left{
+	margin-right: 450px;
+
+}
+.Article{
+	background-color: #FFFFFF;
+	margin:10px	;
+	padding: 15px;
+}
+#art1 p,#art2 p{
+	text-indent: 2em;
+	line-height: 150%;
+}
+.Article h3{
+	color: #3F3F3F;
+}
+.Article h4{
+	color: #7F7F7F;
+}
+#art1 a,#art2 a{
+	color: #090CFF;
+}
+
+#art3 .img-box{
+	display: inline-block;
+	border: 1px solid #B1B1B1;
+	width: 120px;
+	margin: 10px;
+
+}
+#art3 .img-box p{
+	text-align: center;
+}
+#art3 .img-box img{
+	width: 80px;
+	height: 80px;
+	display: block;
+	margin: 10px auto;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
