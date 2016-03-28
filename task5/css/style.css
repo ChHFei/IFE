@@ -50,6 +50,7 @@ nav{
 }
 
 /*container*/
+/*left*/
 .container{
 	overflow: auto;
 	min-width: 700px;
@@ -98,12 +99,36 @@ nav{
 	display: block;
 	margin: 10px auto;
 
+}
+.table-style{
+	width: 100%;
+}
+
+.table-style th{
+	color: #fff;
+	text-align: left;
+}
+/*right*/
+
+
+
+/*foot*/
+.foot{
+	height: 60px;
+	width: 100%;
+	background-color: #000000;
+	display: block;
 
 
 }
+.foot span{
+	color: #FFFFFF;
+	line-height: 60px;
+	width: 100%;
+	display: block;
+	text-align: center;
 
-
-
+}
 
 
 
