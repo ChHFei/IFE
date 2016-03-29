@@ -135,6 +135,12 @@ nav{
 	text-align: left;
 }
 
+.firsttr{
+	background-color:#1C1C1C;
+}
+.lasttr{
+	background-color: #BFBFBF;
+}
 /*right*/
 .right{
 	float: right;
