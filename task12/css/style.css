@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.box{
+	margin: 50px;
+}
+
+/**/	
+.mytable tr th{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+.mytable tr:nth-child(odd){
+	background-color: #BFBFBF;
+}
+.mytable tr:nth-child(2),
+.mytable tr:nth-child(3),
+.mytable tr:nth-child(4){
+	color: red;
+}
+
+/**/
+.myinput{
+	width: 100px;
+}
+@keyframes myfirst{
+	from{width: 100px;}
+	to{width: 200px;}
+}
+.myinput:focus{
+	animation: myfirst 2s;
+}
+
+
+/**/
+#wrap{
+	width: 300px;
+	height: 100px;
+	position: relative;
+	overflow: hidden;
+}
+#slider{
+	width: 300%;
+	height: 100%;
+	margin-left: 0px;
+	list-style: none;
+	animation: slide1 3s;
+
+}
+#slider li{
+	width: 300px;
+	float: left;
+	height: 100%;
+	}
+#slider li:nth-child(1){
+	background-color: #008400;
+}
+#slider li:nth-child(2){
+	background-color: #0000E1;
+}
+#slider li:nth-child(3){
+	background-color: #FF3838;
+}
+
+
+#l01,#l02,#l03{
+	display: none;
+}
+#opts{
+	width: 100px;
+	margin-top: -27px;
+	margin-left: 210px;
+	text-align: center;
+	color: #FFFFFF;
+
+}
+#opts label{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 3px;
+	background-color: #BFBFBF;
+	border: 1px solid #3F3F3F;
+	opacity: 0.8;
+	
+}
+#opts label:hover{
+	background-color: #BFBFBF;
+	opacity: 1;
+}	
+
+#l01:checked ~ #wrap #slider {
+  animation-name: slide1;
+}
+#l02:checked ~ #wrap #slider {
+  animation-name: slide2;
+}
+#l03:checked ~ #wrap #slider {
+  animation-name: slide3;
+}
+
+#l01:active ~ #wrap #slider {
+  animation-name:none;
+  margin-left:0;
+}
+#l02:active ~ #wrap #slider {
+  animation-name:none;
+  margin-left:-300px;
+}
+#l03:active ~ #wrap #slider {
+  animation-name:none;
+  margin-left:-600px;
+}
+
+
+
+
+
+
+/*动画*/
+@keyframes slide1{
+  0% { margin-left:0;}
+  23% { margin-left:0;}
+  33% { margin-left:-300px;}
+  56% { margin-left:-300px;}
+  66% { margin-left:-600px;}
+  90% { margin-left:-600px;}
+  100% {margin-left:0;}
+}
+@keyframes slide2{
+  0% { margin-left:-300px;}
+  23% { margin-left:-300px;}
+  33% { margin-left:-600px;}
+  56% { margin-left:-600px;}
+  66% { margin-left:0;}
+  90% { margin-left:0;}
+  100% {margin-left:-300px;}
+}
+@keyframes slide3{
+  0% { margin-left:-600px;}
+  23% { margin-left:-600px;}
+  33% { margin-left:0;}
+  56% { margin-left:0;}
+  66% { margin-left:-300px;}
+  90% { margin-left:-300px;}
+  100% {margin-left:-600px;}
+}
+
+
+
+
+
+
+
+
+
+
