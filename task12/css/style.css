@@ -46,13 +46,15 @@
 	height: 100%;
 	margin-left: 0px;
 	list-style: none;
-	animation: slide1 3s;
-
+	animation: slide1 5s ease-out infinite;
+	z-index: 0;
 }
 #slider li{
 	width: 300px;
 	float: left;
 	height: 100%;
+
+
 	}
 #slider li:nth-child(1){
 	background-color: #008400;
@@ -67,13 +69,22 @@
 
 #l01,#l02,#l03{
 	display: none;
+
 }
+
 #opts{
 	width: 100px;
-	margin-top: -27px;
-	margin-left: 210px;
+
+	/*margin-top: -27px;
+	margin-left: 210px;	*/
+	position: relative;
+	top: -40px;
+	left: 205px;
+
+	margin-top: 10px;
 	text-align: center;
 	color: #FFFFFF;
+	z-index: 1;
 
 }
 #opts label{
@@ -84,6 +95,7 @@
 	background-color: #BFBFBF;
 	border: 1px solid #3F3F3F;
 	opacity: 0.8;
+	cursor:pointer;
 	
 }
 #opts label:hover{
@@ -100,6 +112,7 @@
 #l03:checked ~ #wrap #slider {
   animation-name: slide3;
 }
+
 
 #l01:active ~ #wrap #slider {
   animation-name:none;
