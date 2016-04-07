@@ -1,0 +1,13 @@
+div{
+	margin:20px;
+}
+#aqi-table{
+	margin: 20px;
+}
+#add-btn{
+
+	line-height: 20px;
+	text-align: center;
+	background-color: #007BFF;
+	color: #FFFFFF;
+}
