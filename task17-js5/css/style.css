@@ -1,0 +1,36 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#form-gra-time{
+	margin: 20px 0;
+
+}
+#aqi-chart-wrap{
+	overflow: hidden;
+	display: flex;
+	
+	
+	justify-content: space-around;
+	align-items: flex-end;
+	height: 500px;
+	padding: 0 60px;
+
+}
+.chat-piece{
+	flex-direction: row;
+	width: 100px;
+	display: inline-block;
+	bottom: 0px;
+	margin: 2px;
+	
+}
+.tip{
+	visibility: hidden;
+	position: absolute;
+	border: 1px solid #82827F;
+	border-radius: 10px;
+	background-color: #F1E456;
+	padding: 5px;
+	font-size: 5px;
+}
